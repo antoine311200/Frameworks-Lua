@@ -7,3 +7,7 @@ function math.pgcd( a, b )
   
   return x
 end
+
+function math.regleTrois( a, b, c )
+  return c * b / a
+end
